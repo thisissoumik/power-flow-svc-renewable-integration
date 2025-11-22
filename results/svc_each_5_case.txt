@@ -1,0 +1,205 @@
+
+=====================================================================
+SVC connected at BUS 2 (Vref = 1.00 p.u.)
+=====================================================================
+Converged in 4 iterations. Max mismatch = 5.876e-07
+Bus 1: |V| = 1.06000  angle =   0.0000 deg
+Bus 2: |V| = 1.00000  angle =  -2.0046 deg
+Bus 3: |V| = 0.98706  angle =  -4.8642 deg
+Bus 4: |V| = 0.98395  angle =  -5.1277 deg
+Bus 5: |V| = 0.97159  angle =  -5.7837 deg
+
+SVC @ bus 2: B = -0.91392 pu   =>   Q_svc =  +91.392 MVAr
+
+================ Table A: Load Flow with SVC (Variable Susceptance Model) ================
+   Bus      GenMW     GenMVAr    Voltage_pu    Angle_deg
+     1   131.1474     90.9729        1.0600       0.0000
+     2    40.0000     30.0000        1.0000      -2.0046
+     3     0.0000      0.0000        0.9871      -4.8642
+     4     0.0000      0.0000        0.9840      -5.1277
+     5     0.0000      0.0000        0.9716      -5.7837
+
+================ Table B: Current in each line and line loss ================
+  From     To   Current_pu   CurrentAngle_deg    RealLoss_MW     ReactiveLoss_MVAr
+     1      2      1.10650           -41.5757        2.44868               7.34605
+     1      3      0.44822           -23.9926        1.60718               4.82153
+     2      3      0.19931            -4.5664        0.23835               0.99313
+     2      4      0.29722            -1.6578        0.53005               1.59016
+     2      5      0.56084            -9.0562        1.25816               3.77449
+     3      4      0.17369           -20.9619        0.03017               0.09050
+     4      5      0.06593           -34.8642        0.03478               0.10433
+
+Total line loss:  P = 6.14737 MW,   Q = 18.72020 MVAr
+
+================ Table C: Total load, total loss and total generation (per bus) ================
+   Bus     TotalGen_MW     TotalGen_MVAr     TotalLoad_MW     TotalLoad_MVAr    TotalLoss_MW       TotalLoss_MVAr
+1(swing)        131.1474           90.9729              0                  0          2.4487               7.3461
+2                40.0000           30.0000             20                 10          1.6072               4.8215
+3                 0.0000            0.0000             45                 15          0.2384               0.9931
+4                 0.0000            0.0000             40                  5          0.5301               1.5902
+5                 0.0000            0.0000             60                 10          1.2582               3.7745
+                  0.0000            0.0000              0                  0          0.0302               0.0905
+                  0.0000            0.0000              0                  0          0.0348               0.1043
+
+---------------- System totals ----------------
+Generation = 171.1474 MW / 120.9729 MVAr
+Load       = 165.0000 MW / 40.0000 MVAr
+Line loss  = 6.1474 MW / 18.7202 MVAr
+
+SVC rating = 91.3919 MVAr (Inductive)
+=====================================================================
+
+
+=====================================================================
+SVC connected at BUS 3 (Vref = 1.00 p.u.)
+=====================================================================
+Converged in 5 iterations. Max mismatch = 3.124e-07
+Bus 1: |V| = 1.06000  angle =   0.0000 deg
+Bus 2: |V| = 1.03866  angle =  -2.6224 deg
+Bus 3: |V| = 1.00000  angle =  -4.9195 deg
+Bus 4: |V| = 1.00230  angle =  -5.2541 deg
+Bus 5: |V| = 1.00459  angle =  -6.0588 deg
+
+SVC @ bus 3: B = -0.23402 pu   =>   Q_svc =  +23.402 MVAr
+
+================ Table A: Load Flow with SVC (Variable Susceptance Model) ================
+   Bus      GenMW     GenMVAr    Voltage_pu    Angle_deg
+     1   129.9737     18.2466        1.0600       0.0000
+     2    40.0000     30.0000        1.0387      -2.6224
+     3     0.0000      0.0000        1.0000      -4.9195
+     4     0.0000      0.0000        1.0023      -5.2541
+     5     0.0000      0.0000        1.0046      -6.0588
+
+================ Table B: Current in each line and line loss ================
+  From     To   Current_pu   CurrentAngle_deg    RealLoss_MW     ReactiveLoss_MVAr
+     1      2      0.83088            -6.8305        1.38071               4.14214
+     1      3      0.42223           -18.1635        1.42620               4.27860
+     2      3      0.21878           -33.6817        0.28718               1.19657
+     2      4      0.31260           -23.2995        0.58631               1.75894
+     2      5      0.55415           -14.9762        1.22833               3.68498
+     3      4      0.19869            34.8208        0.03948               0.11843
+     4      5      0.05644            21.9898        0.02548               0.07645
+
+Total line loss:  P = 4.97369 MW,   Q = 15.25611 MVAr
+
+================ Table C: Total load, total loss and total generation (per bus) ================
+   Bus     TotalGen_MW     TotalGen_MVAr     TotalLoad_MW     TotalLoad_MVAr    TotalLoss_MW       TotalLoss_MVAr
+1(swing)        129.9737           18.2466              0                  0          1.3807               4.1421
+2                40.0000           30.0000             20                 10          1.4262               4.2786
+3                 0.0000            0.0000             45                 15          0.2872               1.1966
+4                 0.0000            0.0000             40                  5          0.5863               1.7589
+5                 0.0000            0.0000             60                 10          1.2283               3.6850
+                  0.0000            0.0000              0                  0          0.0395               0.1184
+                  0.0000            0.0000              0                  0          0.0255               0.0764
+
+---------------- System totals ----------------
+Generation = 169.9737 MW / 48.2466 MVAr
+Load       = 165.0000 MW / 40.0000 MVAr
+Line loss  = 4.9737 MW / 15.2561 MVAr
+
+SVC rating = 23.4023 MVAr (Inductive)
+=====================================================================
+
+
+=====================================================================
+SVC connected at BUS 4 (Vref = 1.00 p.u.)
+=====================================================================
+Converged in 5 iterations. Max mismatch = 2.884e-07
+Bus 1: |V| = 1.06000  angle =   0.0000 deg
+Bus 2: |V| = 1.03852  angle =  -2.6177 deg
+Bus 3: |V| = 1.00381  angle =  -4.9771 deg
+Bus 4: |V| = 1.00000  angle =  -5.1988 deg
+Bus 5: |V| = 1.00371  angle =  -6.0407 deg
+
+SVC @ bus 4: B = -0.22149 pu   =>   Q_svc =  +22.149 MVAr
+
+================ Table A: Load Flow with SVC (Variable Susceptance Model) ================
+   Bus      GenMW     GenMVAr    Voltage_pu    Angle_deg
+     1   129.9365     16.8542        1.0600       0.0000
+     2    40.0000     30.0000        1.0385      -2.6177
+     3     0.0000      0.0000        1.0038      -4.9771
+     4     0.0000      0.0000        1.0000      -5.1988
+     5     0.0000      0.0000        1.0037      -6.0407
+
+================ Table B: Current in each line and line loss ================
+  From     To   Current_pu   CurrentAngle_deg    RealLoss_MW     ReactiveLoss_MVAr
+     1      2      0.83046            -7.0024        1.37933               4.13799
+     1      3      0.41799           -16.1208        1.39770               4.19309
+     2      3      0.21207           -29.8412        0.26984               1.12433
+     2      4      0.31584           -25.4656        0.59854               1.79561
+     2      5      0.55516           -15.5979        1.23280               3.69841
+     3      4      0.17181           -31.1302        0.02952               0.08856
+     4      5      0.06001            26.9664        0.02881               0.08644
+
+Total line loss:  P = 4.93654 MW,   Q = 15.12443 MVAr
+
+================ Table C: Total load, total loss and total generation (per bus) ================
+   Bus     TotalGen_MW     TotalGen_MVAr     TotalLoad_MW     TotalLoad_MVAr    TotalLoss_MW       TotalLoss_MVAr
+1(swing)        129.9365           16.8542              0                  0          1.3793               4.1380
+2                40.0000           30.0000             20                 10          1.3977               4.1931
+3                 0.0000            0.0000             45                 15          0.2698               1.1243
+4                 0.0000            0.0000             40                  5          0.5985               1.7956
+5                 0.0000            0.0000             60                 10          1.2328               3.6984
+                  0.0000            0.0000              0                  0          0.0295               0.0886
+                  0.0000            0.0000              0                  0          0.0288               0.0864
+
+---------------- System totals ----------------
+Generation = 169.9365 MW / 46.8542 MVAr
+Load       = 165.0000 MW / 40.0000 MVAr
+Line loss  = 4.9365 MW / 15.1244 MVAr
+
+SVC rating = 22.1488 MVAr (Inductive)
+=====================================================================
+
+
+=====================================================================
+SVC connected at BUS 5 (Vref = 1.00 p.u.)
+=====================================================================
+Converged in 5 iterations. Max mismatch = 3.891e-07
+Bus 1: |V| = 1.06000  angle =   0.0000 deg
+Bus 2: |V| = 1.04130  angle =  -2.6568 deg
+Bus 3: |V| = 1.01574  angle =  -5.1352 deg
+Bus 4: |V| = 1.01445  angle =  -5.4032 deg
+Bus 5: |V| = 1.00000  angle =  -5.9405 deg
+
+SVC @ bus 5: B = -0.12993 pu   =>   Q_svc =  +12.993 MVAr
+
+================ Table A: Load Flow with SVC (Variable Susceptance Model) ================
+   Bus      GenMW     GenMVAr    Voltage_pu    Angle_deg
+     1   129.7928      6.9188        1.0600       0.0000
+     2    40.0000     30.0000        1.0413      -2.6568
+     3     0.0000      0.0000        1.0157      -5.1352
+     4     0.0000      0.0000        1.0144      -5.4032
+     5     0.0000      0.0000        1.0000      -5.9405
+
+================ Table B: Current in each line and line loss ================
+  From     To   Current_pu   CurrentAngle_deg    RealLoss_MW     ReactiveLoss_MVAr
+     1      2      0.82501            -3.8892        1.36127               4.08382
+     1      3      0.40701            -9.5625        1.32524               3.97573
+     2      3      0.19955           -20.2721        0.23891               0.99547
+     2      4      0.29570           -14.1810        0.52462               1.57386
+     2      5      0.56596           -21.0796        1.28126               3.84378
+     3      4      0.15561            -2.0834        0.02422               0.07265
+     4      5      0.06823           -44.0598        0.03724               0.11173
+
+Total line loss:  P = 4.79277 MW,   Q = 14.65704 MVAr
+
+================ Table C: Total load, total loss and total generation (per bus) ================
+   Bus     TotalGen_MW     TotalGen_MVAr     TotalLoad_MW     TotalLoad_MVAr    TotalLoss_MW       TotalLoss_MVAr
+1(swing)        129.7928            6.9188              0                  0          1.3613               4.0838
+2                40.0000           30.0000             20                 10          1.3252               3.9757
+3                 0.0000            0.0000             45                 15          0.2389               0.9955
+4                 0.0000            0.0000             40                  5          0.5246               1.5739
+5                 0.0000            0.0000             60                 10          1.2813               3.8438
+                  0.0000            0.0000              0                  0          0.0242               0.0726
+                  0.0000            0.0000              0                  0          0.0372               0.1117
+
+---------------- System totals ----------------
+Generation = 169.7928 MW / 36.9188 MVAr
+Load       = 165.0000 MW / 40.0000 MVAr
+Line loss  = 4.7928 MW / 14.6570 MVAr
+
+SVC rating = 12.9927 MVAr (Inductive)
+=====================================================================
+
+>> 
