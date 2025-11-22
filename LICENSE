@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2024 Soumik Saha, Sayba Kamal Orni, Nittya Ananda Biswas, Md. Khalid Hossain, Adith Saha Dipro
+Bangladesh University of Engineering and Technology (BUET)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ACADEMIC USE NOTICE:
+
+This project was originally developed as coursework for EEE 306 (Power System I 
+Laboratory) at Bangladesh University of Engineering and Technology (BUET).
+
+When using this software for academic purposes, please:
+1. Cite the original authors and institution
+2. Acknowledge the academic context of this work
+3. Follow your institution's academic integrity policies
+
+CITATION:
+
+Saha, S., Orni, S. K., Biswas, N. A., Hossain, M. K., & Dipro, A. S. (2024).
+Power Flow Analysis Incorporating Static VAR Compensator (SVC) in Newton Raphson 
+Algorithm and Modelling of Renewable Energy Sources. 
+EEE 306 Final Project Report, Bangladesh University of Engineering and Technology.
